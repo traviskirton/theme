@@ -152,35 +152,41 @@ export const theme = {
   },
 
   spacing: {
-    xs: '8px',   // xsmall
-    sm: '12px',  // small
-    md: '16px',  // medium
-    lg: '20px',  // large
-    xl: '24px',  // xlarge
+    none: '0px',   // custom
+    hair: '1px',   // custom
+    xxxs: '2px',   // custom
+    xxs: '4px',    // custom
+    xs: '8px',
+    sm: '12px',
+    md: '16px',
+    lg: '20px',
+    xl: '24px',
+    xxl: '32px',   // custom
+    xxxl: '64px',  // custom
   },
 
   radius: {
-    xs: '3px',      // small
-    sm: '5px',      // medium
-    md: '8px',      // large
-    lg: '8px',      // large (same as md, no larger defined except full)
-    xl: '100vmax',  // full
+    xs: '3px',
+    sm: '5px',
+    md: '8px',
+    lg: '8px',
+    xl: '100vmax',
   },
 
   shadows: {
-    xs: '0 1px 2px 0 rgba(1, 22, 39, 0.1)',    // xsmall
-    sm: '0 2px 4px 0 rgba(1, 22, 39, 0.12)',   // small
-    md: '0 4px 8px 0 rgba(1, 22, 39, 0.15)',   // medium
-    lg: '0 4px 10px 0 rgba(1, 22, 39, 0.2)',   // large
-    xl: '0 4px 12px 0 rgba(1, 22, 39, 0.25)',  // xlarge
+    xs: '0 1px 2px 0 rgba(1, 22, 39, 0.1)',
+    sm: '0 2px 4px 0 rgba(1, 22, 39, 0.12)',
+    md: '0 4px 8px 0 rgba(1, 22, 39, 0.15)',
+    lg: '0 4px 10px 0 rgba(1, 22, 39, 0.2)',
+    xl: '0 4px 12px 0 rgba(1, 22, 39, 0.25)',
   },
 
   fontSizes: {
-    xs: '10px',  // xxsmall
-    sm: '12px',  // xsmall
-    md: '14px',  // small
-    lg: '16px',  // medium
-    xl: '18px',  // large
+    xs: '10px',
+    sm: '12px',
+    md: '14px',
+    lg: '16px',
+    xl: '18px',
   },
 
   lineHeights: {
@@ -199,65 +205,42 @@ export const theme = {
     xl: '83.75em',   // 1340px
   },
 
-  other: {
-    // Additional spacing values not in Mantine defaults
-    spacing: {
-      none: '0px',
-      hair: '1px',
-      xxxsmall: '2px',
-      xxsmall: '4px',
-      xxlarge: '32px',
-      xxxlarge: '64px',
-    },
+  letterSpacing: {
+    none: '0',
+    xsmall: '0.1px',
+    small: '0.5px',
+    medium: '1px',
+    large: '1.6px',
+  },
 
-    // Icon sizes
-    iconSizes: {
-      xxsmall: '8px',
-      xsmall: '12px',
-      small: '16px',
-      medium: '24px',
-      large: '32px',
-      xlarge: '40px',
-      xxlarge: '64px',
-    },
+  iconSizes: {
+    xxsmall: '8px',
+    xsmall: '12px',
+    small: '16px',
+    medium: '24px',
+    large: '32px',
+    xlarge: '40px',
+    xxlarge: '64px',
+  },
 
-    // Letter spacing
-    letterSpacing: {
-      none: '0',
-      xsmall: '0.1px',
-      small: '0.5px',
-      medium: '1px',
-      large: '1.6px',
-    },
+  fontWeights: {
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+  },
 
-    // Font weights
-    fontWeights: {
-      regular: 400,
-      medium: 500,
-      semibold: 600,
-      bold: 700,
-    },
+  fontFamilies: {
+    sans: "'Satoshi', system-ui, -apple-system, sans-serif",
+    mono: "'JetBrains Mono', ui-monospace, monospace",
+  },
 
-    // Font families
-    fontFamilies: {
-      sans: "'Satoshi', system-ui, -apple-system, sans-serif",
-      mono: "'JetBrains Mono', ui-monospace, monospace",
-    },
-
-    // Border widths
-    borderWidths: {
-      xsmall: '1px',
-      small: '2px',
-      medium: '4px',
-      large: '8px',
-      xlarge: '16px',
-    },
-
-    // Extended breakpoints
-    breakpoints: {
-      xxsmall: '412px',
-      xlarge: '1750px',
-    },
+  borderWidths: {
+    xsmall: '1px',
+    small: '2px',
+    medium: '4px',
+    large: '8px',
+    xlarge: '16px',
   },
 };
 

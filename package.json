@@ -1,0 +1,21 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./mantine": {
+      "types": "./dist/mantine.d.ts",
+      "import": "./dist/mantine.js",
+      "default": "./dist/mantine.js"
+    }
+  },
+  "files": [
+    "dist/"
+  ]
+}
